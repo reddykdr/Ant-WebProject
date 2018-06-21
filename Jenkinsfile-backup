@@ -1,8 +1,7 @@
 #! groovy
 node{
  stage('Source'){
-     git 'https://github.com/devopstrainingblr/Ant-WebProject.git'
-  
+     git 'https://github.com/devopstrainingblr/Ant-WebProject.git'  
       /* sh 'printenv' */
    /* sh 'env' */
     sh 'echo branch name is:  $env.BRANCH_NAME' 
