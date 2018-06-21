@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="${project.name}" default="init" basedir=".">
-
+<!-- Comments -->
 	<property file="./build.properties" />
 	
 	<target name="init" depends="prepare,compile,war" description="Clean work dirs, then compile and create a WAR then create the EAR">
